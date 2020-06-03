@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tattler</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">0yvU7pCoxqvHiaLfBnPe87E5YEyf4gdpxolXoyG6</string>
+    <string name="back4app_client_key">itSVvH1SQhUaIVc9MC3Hwzn7qCh40bmQQ4JiaAIH</string>
+    <string name="tattler">Tattler</string>
+    <string name="log_in">Log In</string>
+    <string name="log_out">Logout</string>
+    <string name="send_a_message">Send a message</string>
+</resources>

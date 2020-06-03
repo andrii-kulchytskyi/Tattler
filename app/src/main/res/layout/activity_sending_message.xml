@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5FBE2"
+    tools:context=".SendingMessageActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edtMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Type something here..."
+        android:inputType="textPersonName"
+        android:textColorHint="#878686"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSendTattle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#000000"
+        android:text="send tattle"
+        android:textColor="#FFFFFF" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="398dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnViewTattlers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:background="#000000"
+        android:text="VIEW tattles of other users"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
